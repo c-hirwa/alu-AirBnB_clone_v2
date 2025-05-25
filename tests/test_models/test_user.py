@@ -25,10 +25,16 @@ class test_User(TestBaseModel):
 
     def test_email(self):
         """ """
-        new = self.value()
+        new = self.value() 
+        new.email = "j.mugisha2@alustudent.com"
         self.assertEqual(type(new.email), str)
 
     def test_password(self):
         """ """
         new = self.value()
         self.assertEqual(type(new.password), str)
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> d8077054a5007915645d04ce015990c8c8429285
