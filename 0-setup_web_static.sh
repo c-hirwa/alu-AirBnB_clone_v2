@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# Install Nginx if not already installed
+# Incase, Nginx is not already installed.Install it using admin"sudo" previliges.
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install nginx
-
 
 # create folders
 sudo mkdir -p /data/web_static/releases/test /data/web_static/shared
