@@ -33,8 +33,3 @@ class test_User(TestBaseModel):
         """ """
         new = self.value()
         self.assertEqual(type(new.password), str)
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> d8077054a5007915645d04ce015990c8c8429285
